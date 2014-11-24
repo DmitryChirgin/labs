@@ -1,0 +1,44 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.site
+{
+    height: auto;
+    width: 100%;
+}
+.cap
+{
+    width: 100%;
+    height: 100px;
+    background-color: red;
+}
+
+.sitebar
+{
+    width: 20%;
+    min-height: 100px;
+    background-color: #00ffff;
+    float: left;
+}
+
+.main
+{
+    width: 80%;
+    min-height: 100px;
+    background-color: grey;
+    float: right;
+    overflow: auto;
+}
+
+.cellar
+{
+    width: 100%;
+    height: 20%;
+    background-color: green;
+    position: fixed;
+    left: 0; bottom: 0;
+}
+
