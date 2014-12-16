@@ -16,15 +16,15 @@
 	{
 	    for($i = 1; $i < strlen($identifer); $i++)
 		{
-    		if(ctype_alnum($igentifer[i]))
+    		if(ctype_alnum($igentifer))
 			{
 			    die('Нет');
-  	}
+  	        }
             else
             {
                 die('ДА');
             }
- 	}
+ 	   }
 	}
     else
     {
